@@ -11,6 +11,6 @@ spec:
     spec:
       containers:
       - name: example-application
-        image: gcr.io/gitopsdemo-314411/example-application
+        image: gcr.io/gitopsdemo-314411/example-application@sha256:c274f217f39200fd232218cafe2a327a278b46a8cad970ba092e374e54f4b18e
         ports:
         - containerPort: 8080
